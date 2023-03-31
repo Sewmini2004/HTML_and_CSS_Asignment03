@@ -1,0 +1,264 @@
+section div:first-child {
+    width: 49vw;
+    height: 23vw;
+    background-color: red;
+    position: relative;
+
+}
+
+section div:first-child > div {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+}
+
+
+
+section div:last-child > div {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+}
+
+section div:nth-child(3) > div {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+}
+
+
+section div:nth-child(2) > div {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+}
+
+
+section div:first-child>div>div{
+    /*#class {*/
+    width: 5vw;
+    height: 5vw;
+    border-radius:initial;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: red;
+
+}
+
+
+section div:last-child>div>div{
+
+    width: 5vw;
+    height: 5vw;
+    border-radius:initial;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: red;
+
+}
+
+
+section div:nth-child(2)>div>div{
+
+    width: 5vw;
+    height: 5vw;
+    border-radius:initial;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: red;
+
+}
+
+
+section div:nth-child(3)>div>div{
+
+    width: 5vw;
+    height: 5vw;
+    border-radius:initial;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: red;
+
+}
+
+
+
+section div:last-child {
+    width: 49vw;
+    height: 23vw;
+    background-color: yellow;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+
+}
+
+section div:nth-child(2) {
+    width: 49vw;
+    height: 23vw;
+    background-color: deeppink;
+    position: absolute;
+    left: 50%;
+}
+
+section div:nth-child(3) {
+    width: 49vw;
+    height: 23vw;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+main {
+    border: 2px solid #0a0808;
+    width: 98vw;
+    height: 46vw;
+    position: relative;
+
+}
+
+main>div:first-child{
+    width: 9vw;
+    height: 9vw;
+    border-radius:initial;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color:white;
+    position: absolute;
+    z-index : 10;
+
+}
+main>div:first-child>div{
+    width: 7vw;
+    height: 7vw;
+    border-radius:50%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: red;
+    position: absolute;
+}
+
+main>div:nth-child(2){
+
+    width: 7vw;
+    height: 7vw;
+    background-color: white;
+    border-bottom-right-radius:100px;
+    border-right: 0;
+    position: absolute;
+    z-index: 10;
+
+
+}
+
+
+main>div:nth-child(3){
+    width:7vw;
+    height:7vw;
+    background-color: white;
+    border-bottom-left-radius: 100px;
+    left:92.81%;
+    top:0%;
+    position: absolute;
+    z-index : 10;
+
+
+
+}
+
+main>div:nth-child(4){
+    width:7vw;
+    height:7vw;
+    background-color: white;
+    border-top-left-radius: 100px;
+    left:92.80%;
+    bottom:0%;
+    position: absolute;
+    z-index : 10;
+
+
+
+}
+
+main>div:nth-child(5){
+    width:7vw;
+    height:7vw;
+    background-color:white;
+    border-top-right-radius: 100px;
+    bottom: 0;
+    position: absolute;
+    z-index : 10;
+
+
+}
+
+main>div:nth-child(6){
+    width: 12vw;
+    height: 6vw;
+    background-color: white;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    top: 87%;
+    left: 44%;
+    position: absolute;
+    z-index : 10;
+
+
+}
+
+main>div:nth-child(7){
+    width: 12vw;
+    height: 6vw;
+    background-color: white;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    bottom: 87%;
+    left: 44%;
+    position: absolute;
+    z-index : 10;
+
+
+}
